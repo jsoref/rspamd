@@ -5461,7 +5461,7 @@
   * Decode URLs obtained from HTML tags
   * Fix crash with unweighted upstreams
   * Stop processing headers in parts
-  * Set sockaddr.sa_family properly when connectig to upstreams
+  * Set sockaddr.sa_family properly when connecting to upstreams
   * Fix reload issues in surbl and fuzzy_check (reported by @citrin)
   * Fix timeouts in redirector
   * Improve lua errors reporting
