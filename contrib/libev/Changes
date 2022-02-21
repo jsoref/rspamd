@@ -12,7 +12,7 @@ Revision history for libev, a high-performance and full-featured event loop.
         - c++: remove deprecated dynamic throw() specifications.
         - c++: improve the (unsupported) bad_loop exception class.
         - backport perl ev_periodic example to C, untested.
-        - update libecb, biggets change is to include a memory fence
+        - update libecb, biggest change is to include a memory fence
           in ECB_MEMORY_FENCE_RELEASE on x86/amd64.
         - minor autoconf/automake modernisation.
 
