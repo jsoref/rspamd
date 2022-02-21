@@ -189,7 +189,7 @@ function M.configure(ts, te, vs, ve, cs, ce, options)
     -- Note: line statements are not supported since this grammar cannot parse
     -- Lua itself.
 
-    -- Template inheritence.
+    -- Template inheritance.
     -- {% block ... %} body {% endblock %}
     block_block = tag_start * 'block' * space^1 * token('block', Ct((Cg(V('expr_text'), 'expression') + expr_error) * (tag_end + tag_end_error) *
                   V('body')^-1)) *
