@@ -5581,7 +5581,7 @@
   * Improve documentation
 
 0.7.0:
-  * Use HTTP protocol for all operatiosn
+  * Use HTTP protocol for all operations
   * Webui worker is now removed and controller works as webui
   * Allow to serve static files via controller by option `static_dir`
   * Rspamd interface is now a part of rspamd
