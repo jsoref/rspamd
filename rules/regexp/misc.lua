@@ -18,7 +18,7 @@ limitations under the License.
 local reconf = config['regexp']
 
 reconf['HTML_META_REFRESH_URL'] = {
-  -- Requires options { check_attachements = true; }
+  -- Requires options { check_attachments = true; }
   re = '/<meta\\s+http-equiv="refresh"\\s+content="\\d+\\s*;\\s*url=/{sa_raw_body}i',
   description = "Has HTML Meta refresh URL",
   score = 5.0,
@@ -27,7 +27,7 @@ reconf['HTML_META_REFRESH_URL'] = {
 }
 
 reconf['HAS_DATA_URI'] = {
-  -- Requires options { check_attachements = true; }
+  -- Requires options { check_attachments = true; }
   re = '/data:[^\\/]+\\/[^; ]+;base64,/{sa_raw_body}i',
   description = "Has Data URI encoding",
   group = 'HTML',
@@ -35,7 +35,7 @@ reconf['HAS_DATA_URI'] = {
 }
 
 reconf['DATA_URI_OBFU'] = {
-  -- Requires options { check_attachements = true; }
+  -- Requires options { check_attachments = true; }
   re = '/data:text\\/(?:plain|html);base64,/{sa_raw_body}i',
   description = "Uses Data URI encoding to obfuscate plain or HTML in base64",
   group = 'HTML',

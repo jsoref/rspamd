@@ -364,7 +364,7 @@ struct rspamd_config {
 	struct rspamd_action *actions;                  /**< all actions of the metric						*/
 
 	gboolean one_shot_mode;                         /**< rules add only one symbol							*/
-	gboolean check_text_attachements;               /**< check text attachements as text					*/
+	gboolean check_text_attachments;                /**< check text attachments as text					*/
 	gboolean check_all_filters;                     /**< check all filters									*/
 	gboolean allow_raw_input;                       /**< scan messages with invalid mime					*/
 	gboolean disable_hyperscan;                     /**< disable hyperscan usage							*/

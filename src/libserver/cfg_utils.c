@@ -218,7 +218,7 @@ rspamd_config_new (enum rspamd_config_init_flags flags)
 	cfg->log_level = G_LOG_LEVEL_WARNING;
 	cfg->log_flags = RSPAMD_LOG_FLAG_DEFAULT;
 
-	cfg->check_text_attachements = TRUE;
+	cfg->check_text_attachments = TRUE;
 
 	cfg->dns_max_requests = 64;
 	cfg->history_rows = 200;
