@@ -314,7 +314,7 @@
   * [Rework] Rework tags parsing machine
   * [Rework] Slightly improve old regexp API
   * [Rework] Start conversion of the redis pool code to c++
-  * [Rework] Try to resolve failed upstreams more agressively
+  * [Rework] Try to resolve failed upstreams more aggressively
   * [Rework] Use C++ utf8 library with unit tests to trim whitespaces
   * [Rework] Use C++ version for unicode normalisation
   * [Rework] Use C++ version of the lua threads pool
