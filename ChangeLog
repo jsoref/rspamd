@@ -4058,7 +4058,7 @@
   * [Feature] Support archives when matching patterns in multimap
   * [Feature] Support premium/academic feed for openphish
   * [Feature] Support rspamd_updates via https
-  * [Feature] Supprort FQDNs in phishing module maps
+  * [Feature] Support FQDNs in phishing module maps
   * [Feature] Try to read on fuzzy timeout to avoid fake timeouts
   * [Feature] Try to select the optimal possible function for input
   * [Feature] Unescape and unquote smtp addresses
