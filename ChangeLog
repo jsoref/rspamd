@@ -782,7 +782,7 @@
   * [Fix] Correct EMA time calculations
   * [Fix] Do not treat archives as text
   * [Fix] Do not use strdup on data extracted from lua
-  * [Fix] Fix a failure calcuating URL reputation.
+  * [Fix] Fix a failure calculating URL reputation.
   * [Fix] Fix crash due to constructors init order
   * [Fix] Fix crash on parts with no cd
   * [Fix] Fix empty prefilters that require mime structures
