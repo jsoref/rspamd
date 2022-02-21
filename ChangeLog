@@ -2546,7 +2546,7 @@
   * [Feature] Fix surbl monitored for IP lists, add `monitored_domain` option
   * [Feature] Implement caching for dkim body hashes
   * [Feature] Implement milter protocol scan reply
-  * [Feature] Improve omograph phishing detection
+  * [Feature] Improve homograph phishing detection
   * [Feature] Initial support of self-scan in Rspamd proxy
   * [Feature] Keep track of headers in milter interface
   * [Feature] Milter headers: better controls for local/authenticated
