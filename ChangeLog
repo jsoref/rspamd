@@ -414,7 +414,7 @@
   * [Rework] Add stale cache removal
   * [Rework] Clickhouse: Improve performance
   * [Rework] Distinguish between strict config test mode
-  * [Rework] Furhter logging improvements
+  * [Rework] Further logging improvements
   * [Rework] Milter_headers: improve extended_headers_rcpt support
   * [Rework] Move parsers to a separate lua library
   * [Rework] Neural: Skip composite symbols
@@ -1378,7 +1378,7 @@
   * [Fix] Fix override_defaults function
   * [Fix] Fix squeezed symbols when using settings
   * [Fix] Fix urls insertion in Clickhouse module
-  * [Fix] Furhter fixes to ratelimits logic
+  * [Fix] Further fixes to ratelimits logic
   * [Fix] Ignore signatures when looking for boundaries
   * [Fix] Properly set learned count
   * [Fix] Really fix ratelimits configuration and work
