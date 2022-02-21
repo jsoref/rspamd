@@ -407,7 +407,7 @@
   * [Fix] Use message pointer to avoid obsolete data to be cached
   * [Project] Rbl: Migrate to `checks`
   * [Project] Rbl: Move config code outside of the plugin
-  * [Project] Ressurect empty prefilters as connection filters
+  * [Project] Resurrect empty prefilters as connection filters
   * [Project] Support connection filters registration from Lua
   * [Rework] Add final cleanup logic
   * [Rework] Add preliminary support of hyperscan caching for re maps
