@@ -49,7 +49,7 @@ bayes_error_quark (void)
 /**
  * Returns probability of chisquare > value with specified number of freedom
  * degrees
- * @param value value to test
+ * @param value to test
  * @param freedom_deg number of degrees of freedom
  * @return
  */

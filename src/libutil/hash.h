@@ -69,7 +69,7 @@ gboolean rspamd_lru_hash_remove (rspamd_lru_hash_t *hash,
  * Insert item in hash
  * @param hash hash object
  * @param key key to insert
- * @param value value of key
+ * @param value of key
  */
 void rspamd_lru_hash_insert (rspamd_lru_hash_t *hash,
 							 gpointer key,

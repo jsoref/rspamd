@@ -68,7 +68,7 @@ LUA_FUNCTION_DEF (cdb, build);
  * @method rspamd_cdb_builder:add(key, value)
  * Adds new value to cdb in the builder mode
  * @param {string} key key to add
- * @param {string} value value to associate with the key
+ * @param {string} value to associate with the key
  * @return {rspamd_cdb_builder} the same object to allow chaining calls
  */
 LUA_FUNCTION_DEF (cdb_builder, add);

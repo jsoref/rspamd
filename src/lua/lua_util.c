@@ -155,7 +155,7 @@ LUA_FUNCTION_DEF (util, levenshtein_distance);
  * Fold rfc822 header according to the folding rules
  *
  * @param {string} name name of the header
- * @param {string} value value of the header
+ * @param {string} value of the header
  * @param {string} how "cr" for \r, "lf" for \n and "crlf" for \r\n (default)
  * @param {string} stop_chars also fold header when the
  * @return {string} Folded value of the header

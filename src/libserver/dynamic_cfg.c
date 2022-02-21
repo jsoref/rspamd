@@ -563,7 +563,7 @@ rspamd_maybe_add_lua_dynact (struct rspamd_config *cfg,
  * @param cfg config file object
  * @param metric metric's name
  * @param symbol symbol's name
- * @param value value of symbol
+ * @param value of symbol
  * @return
  */
 gboolean
@@ -655,7 +655,7 @@ remove_dynamic_symbol (struct rspamd_config *cfg,
  * @param cfg config file object
  * @param metric metric's name
  * @param action action's name
- * @param value value of symbol
+ * @param value of symbol
  * @return
  */
 gboolean

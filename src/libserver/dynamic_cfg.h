@@ -42,7 +42,7 @@ gboolean dump_dynamic_config (struct rspamd_config *cfg);
  * @param cfg config file object
  * @param metric metric's name
  * @param symbol symbol's name
- * @param value value of symbol
+ * @param value of symbol
  * @return
  */
 gboolean add_dynamic_symbol (struct rspamd_config *cfg,
@@ -59,7 +59,7 @@ gboolean remove_dynamic_symbol (struct rspamd_config *cfg,
  * @param cfg config file object
  * @param metric metric's name
  * @param action action's name
- * @param value value of symbol
+ * @param value of symbol
  * @return
  */
 gboolean add_dynamic_action (struct rspamd_config *cfg,
