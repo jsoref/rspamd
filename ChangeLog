@@ -4115,7 +4115,7 @@
   * [Fix] Avoid double hashing for images
   * [Fix] Avoid linking with actrie if hyperscan is enabled
   * [Fix] Check copy result when sending message to mirrors
-  * [Fix] Cleanup message when assiging body
+  * [Fix] Cleanup message when assigning body
   * [Fix] Cleanup stack from global vars
   * [Fix] Correctly parse query type
   * [Fix] Disable all symbols if enable_groups is found in settings
