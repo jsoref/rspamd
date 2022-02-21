@@ -942,7 +942,7 @@
   * [Fix] Fix fuzzy image score calculation #2962
   * [Fix] Fix hang in fuzzy_learn when explicit rotation is set
   * [Fix] Fix headers propagation logic
-  * [Fix] Fix hearbeats restart issue
+  * [Fix] Fix heartbeats restart issue
   * [Fix] Fix history reset
   * [Fix] Fix log parameter
   * [Fix] Fix lua_ip_equal logic
