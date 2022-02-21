@@ -1810,7 +1810,7 @@
   * [Fix] Fix lua RSA verify and its tests
   * [Fix] Fix metadata exporter send_mail backend (#2124)
   * [Fix] Fix processing of '\v' in libucl
-  * [Fix] Fix shemaless URLs detection
+  * [Fix] Fix schemaless URLs detection
   * [Fix] Fix support of multiple headers in sign_header
   * [Fix] Fix usage of util.parse_mail_address
   * [Fix] Fix weights of dynamic squeezed rules
