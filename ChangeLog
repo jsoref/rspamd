@@ -5201,7 +5201,7 @@
   * Fix memory leak if mime cannot be parsed.
   * Fix dkim cache expiration.
   * Fix issues with redirector HTTP response.
-  * Fix abnormal connection closing with certains messages with a high score
+  * Fix abnormal connection closing with certain messages with a high score
     (issue #296)
   * Fix redirector installation.
   * Use specific POE loop for some systems.
