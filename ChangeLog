@@ -3628,7 +3628,7 @@
   * [Fix] Various fixes for errors ringbuffer
   * [Fix] Yield R_SPF_DNSFAIL if lookup of included record fails
   * [Fix] mid: fix map initialization
-  * [Fix] mid: handle incorrect rgexps in the map
+  * [Fix] mid: handle incorrect regexps in the map
   * [Rework] Add extract training data function to fann_redis
   * [Rework] Add preliminary train tests
   * [Rework] Add redis storage feature to fann_redis
