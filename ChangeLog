@@ -1270,7 +1270,7 @@
   * [Fix] Ignore whitespaces at the end of value in DKIM records
   * [Fix] MID module: Fix DKIM domain matching
   * [Fix] Milter_headers: Fix remove_upstream_spam_flag and modernise config
-  * [Fix] Mime_parser: Fix issue with parsing of the trailing garbadge
+  * [Fix] Mime_parser: Fix issue with parsing of the trailing garbage
   * [Fix] Mime_parser: Fix parsing of mime parts without closing boundary
   * [Fix] Multimap: Fix operating with userdata
   * [Fix] Process orphaned `symbols` section
@@ -2064,7 +2064,7 @@
   * [Fix] Detection of maillist optimized and fixed
   * [Fix] DKIM signing: allow for auth_only to be false
   * [Fix] DMARC: require report_settings for sending reports only
-  * [Fix] Do not allow garbadge when checking url domain
+  * [Fix] Do not allow garbage when checking url domain
   * [Fix] Do not cache SPF records with PTR elements
   * [Fix] Do not constantly re-resolve failed upstreams with a single element
   * [Fix] Do not crash if no words defined
@@ -2355,7 +2355,7 @@
   * [Fix] Check for magic when checking for an archive
   * [Fix] Deal with another case when processing exceptions
   * [Fix] Deal with URLs with no slashes after protocol
-  * [Fix] Do not allow garbadge when checking url domain
+  * [Fix] Do not allow garbage when checking url domain
   * [Fix] Do not ignore short words
   * [Fix] Do not strip last character in the last word
   * [Fix] Do not treat script content as text
@@ -3965,7 +3965,7 @@
   * [Feature] Create a dedicated parser to strip newlines
   * [Feature] Deduplicate the same urls in multimap module
   * [Feature] Distinguish luajit from lua
-  * [Feature] Do not print garbadge in --compact output
+  * [Feature] Do not print garbage in --compact output
   * [Feature] Dynamically detect if a CPU is incompatible with hyperscan
   * [Feature] Enable forced resolving for some lua plugins
   * [Feature] Enable rrd by default
@@ -4266,7 +4266,7 @@
   * [Fix] Further fixes for surbl extensions map
   * [Fix] Further fixes in maps code
   * [Fix] Further improvements to error messages in fuzzy check
-  * [Fix] Further tweaks to redis garbadge collection
+  * [Fix] Further tweaks to redis garbage collection
   * [Fix] Groups are now case insensitive
   * [Fix] Handle log pipe read errors
   * [Fix] Handle nested dependencies in SpamAssassin plugin
@@ -5902,7 +5902,7 @@
   * Fix compatibility issues
   * Fix -lintl detection
   * Init some variables to avoid problems
-  * Remove garbadge (gnome terminal sucks)
+  * Remove garbage (gnome terminal sucks)
   * Add more information about why we drop smtp connection
   * Fix mkstemp call
   * Send to upstream QUIT command at the end of session
@@ -5966,7 +5966,7 @@
   * Fix check_smtp_data function
   * Add ability to make views by recipient
   * Add ability to set metric's action from config file
-  * Fix bug with writing garbadge if message has no urls or no messages
+  * Fix bug with writing garbage if message has no urls or no messages
   * Fix bug with incorrect behaviour of compare_parts_distance function
   * Add ability to assign several actions to one metric
   * Report action in rspamc protocol
