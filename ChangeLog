@@ -4346,7 +4346,7 @@
   * [Fix] Use non-blocking mode for systemd sockets
   * [Fix] Use shared memory merely for local backends in the proxy
   * [Fix] Use watchers for spf plugin
-  * [Fix] Varioud fixes to the maps code
+  * [Fix] Various fixes to the maps code
 
 1.2.8:
   * Another fix for exim workaround (#637)
