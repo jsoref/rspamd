@@ -1921,7 +1921,7 @@
   * [Feature] Add routine to convert old style stats to a new one
   * [Feature] Add some sanity checks for actions and controller
   * [Feature] Add statistic convertation module to configwizard
-  * [Feature] Add sugestions logic to mempool allocator
+  * [Feature] Add suggestions logic to mempool allocator
   * [Feature] Add support of config transform in Lua
   * [Feature] Add timeout to rspamc when doing corpus test
   * [Feature] Add tooling to convert bayes schemas
