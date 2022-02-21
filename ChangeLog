@@ -3114,7 +3114,7 @@
   * [Fix] Fix macro name
   * [Fix] Fix mas group score calculations
   * [Fix] Fix matching of the same patterns from different tries
-  * [Fix] Fix memory corruprtion and leak
+  * [Fix] Fix memory corruption and leak
   * [Fix] Fix memory leak in HTTP maps
   * [Fix] Fix memory leak in expression destroying
   * [Fix] Fix memory leak in parsing of mime names
