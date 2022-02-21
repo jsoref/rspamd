@@ -5287,7 +5287,7 @@
     - DMARC plugin that evaluates SPF and DKIM policies to the domain policies
     - many old plugins has been reworked to implement new features and improve
       stability
-  * New aho-corasic trie implementation from @mischasan that allows to load and
+  * New aho-corasick trie implementation from @mischasan that allows to load and
     use hundreds of thousands of patterns with no influence on load
   * Support of PCRE JIT and PCRE JIT fast path modes that significantly improves
     the performance of regular expressions if supported by PCRE
