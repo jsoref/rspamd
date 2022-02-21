@@ -2880,7 +2880,7 @@
   * [WebUI] Rework history v2 function
 
 1.5.2:
-  * [Conf] Add default config for spamassasssin plugin
+  * [Conf] Add default config for spamassassin plugin
   * [Conf] Add default configuration for antivirus module
   * [Conf] Add dkim signing docs
   * [Conf] Add mx_check default config
