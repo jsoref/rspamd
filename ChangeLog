@@ -1548,7 +1548,7 @@
   * [Fix] Fix legacy history handling in the controller
   * [Fix] Fix messages insertion
   * [Fix] Fix sending string method
-  * [Fix] Fix statconver command line arguments
+  * [Fix] Fix statconvert command line arguments
   * [Fix] Fixed argument checking for being null
   * [Fix] Fixed issues reported by luacheck
   * [Fix] Freeze updates queue when do actual storage update
