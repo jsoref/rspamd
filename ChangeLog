@@ -868,7 +868,7 @@
   * [Feature] Maps: Allow caching for complex maps
   * [Feature] Monitored: Support random lookups
   * [Feature] Multimap: Add combined maps prototype
-  * [Feature] Multimap: Add dependend maps via redis keys selectors
+  * [Feature] Multimap: Add dependent maps via redis keys selectors
   * [Feature] Multimap: Allow multiple email addresses matches
   * [Feature] Multimap: Also check detected charset when do filename checks
   * [Feature] Output number of messages processed to proctitle
