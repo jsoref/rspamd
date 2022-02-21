@@ -2752,7 +2752,7 @@
   * [Fix] Avoid lookup in absent hash
   * [Fix] Check return values from Lua functions called from C
   * [Fix] Do not count sending and loading time in rspamc
-  * [Fix] Escape json strings for controller rejplies from Lua
+  * [Fix] Escape json strings for controller replies from Lua
   * [Fix] Fix archive scans for savapi
   * [Fix] Fix domain_only emails RBL
   * [Fix] Fix ip_score map configuration
