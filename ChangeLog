@@ -3517,7 +3517,7 @@
   * [Fix] Another fix for rdns_make_request_full invocation
   * [Fix] Another fix in DKIM canonicalization
   * [Fix] Another memory leak plugged
-  * [Fix] Another try to deal with posix idiotizm
+  * [Fix] Another try to deal with posix idiotism
   * [Fix] Another try to fix RDNS events processing logic
   * [Fix] Avoid double frees in HEAD requests
   * [Fix] Avoid extra symbols for RBLs
