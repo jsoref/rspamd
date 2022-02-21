@@ -3605,7 +3605,7 @@
   * [Fix] One more attempt to fix lua_redis
   * [Fix] One more check for readdir...
   * [Fix] Params should be treated as a hash
-  * [Fix] Plug memory leak in regexp desctructor
+  * [Fix] Plug memory leak in regexp destructor
   * [Fix] Process headers only once
   * [Fix] Properly handle nil values in ratelimit plugin
   * [Fix] Really fix redis shingles check
