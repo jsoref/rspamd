@@ -5436,7 +5436,7 @@
   * Decode entitles when normalizing HTML parts
   * Fix logic of finding URLs in HTML parts
   * Do not include \0 into length of text when performing conversion to utf8
-  * Fix raw vs parsed reperesentations
+  * Fix raw vs parsed representations
     Raw parts are now:
       - decoded b64/qp, but *NOT* converted to utf-8
     Processed parts are now:
