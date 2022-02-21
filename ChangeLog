@@ -3780,7 +3780,7 @@
   * [Feature] Allow maps with multiple symbols and scores
   * [Feature] Allow regexps in the emails maps
   * [Feature] Allow to register metric symbols from multimap
-  * [Feature] Allow to reset redis tokens instead of appendig values
+  * [Feature] Allow to reset redis tokens instead of appending values
   * [Feature] Allow to store strings in radix maps
   * [Feature] Check UTF validity when there are utf regexps in a map
   * [Feature] Correctly work when there is no hard reject action
