@@ -2993,7 +2993,7 @@
   * [Feature] Avira SAVAPI support
   * [Feature] Cache and simplify DCT and jpeg decode
   * [Feature] Cache libicu converters
-  * [Feature] Detect URLs with suspicious omographs
+  * [Feature] Detect URLs with suspicious homographs
   * [Feature] Do not increase score for duplicate options
   * [Feature] Do not trust CTE, check base64 and qp strictly
   * [Feature] Dynamic reputation in URL reputation plugin
@@ -3013,7 +3013,7 @@
   * [Feature] Implement rspamdgrep tool
   * [Feature] Implement sane checksum for config file
   * [Feature] Implement url tags concept
-  * [Feature] Improve detection of omographs using libicu
+  * [Feature] Improve detection of homographs using libicu
   * [Feature] Improve url redirector module
   * [Feature] Multimap: Received header processing
   * [Feature] Multiple improvements in the maps
@@ -3049,7 +3049,7 @@
   * [Feature] rmilter_headers: authentication-results (#78)
   * [Fix] Add additional check to mark redis connection inactive
   * [Fix] Add packed attribute for protocol structure
-  * [Fix] Adopt OMOGRAPH_URL rule
+  * [Fix] Adopt HOMOGRAPH_URL rule
   * [Fix] Allow static maps
   * [Fix] Allow to disable classifiers checks using settings and conditions
   * [Fix] Another try to fix 0 length maps
@@ -3154,7 +3154,7 @@
   * [Fix] Forgotten worker
   * [Fix] Further memory leaks fixes
   * [Fix] Ignore lua metatokens in bayes for now
-  * [Fix] Improve OMOGRAPH_URL rule
+  * [Fix] Improve HOMOGRAPH_URL rule
   * [Fix] Lua IP from string should be invalid if parsing failed
   * [Fix] Miltiple fixes to new lua_tcp, add debugging
   * [Fix] More fixes for iterators cleanup
