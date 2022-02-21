@@ -510,7 +510,7 @@
   * [Fix] Fix types check and types usage in lua_cryptobox
   * [Fix] Fix unused results
   * [Fix] Fuzzy_check: Disable shingles for short texts (really)
-  * [Fix] Ical: Fix identation grammar
+  * [Fix] Ical: Fix indentation grammar
   * [Fix] Improve part:is_attachment logic
   * [Fix] Mmap return value must be checked versus MAP_FAILED
   * [Fix] One more fix to skip images that are not urls
