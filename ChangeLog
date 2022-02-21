@@ -5230,7 +5230,7 @@
   * Fix critical bugs in words normalization
   * Add lua bindings to tokenizer.
   * Implement storing of HTTP headers inside task
-  * Add lua API to accerss HTTP headers data
+  * Add lua API to access HTTP headers data
   * Implemented base64 encoding suitable for MIME
   * Use caseless hash and equal functions for HTTP request headers.
   * Improve debian architectures support (by @dottedmag)
