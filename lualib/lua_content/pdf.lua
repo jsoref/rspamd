@@ -653,8 +653,8 @@ process_dict = function(task, pdf, obj, dict)
     if not obj.type then
 
       if obj.dict.S and obj.dict.JS then
-        obj.type = 'Javascript'
-        lua_util.debugm(N, task, 'implicit type for Javascript object %s:%s',
+        obj.type = 'JavaScript'
+        lua_util.debugm(N, task, 'implicit type for JavaScript object %s:%s',
             obj.major, obj.minor)
       else
         lua_util.debugm(N, task, 'no type for %s:%s',
@@ -749,7 +749,7 @@ process_dict = function(task, pdf, obj, dict)
     elseif obj.type == 'XRef' then
       -- XRef stream instead of trailer from PDF 1.5 (thanks Adobe)
       process_xref(task, pdf, obj)
-    elseif obj.type == 'Javascript' then
+    elseif obj.type == 'JavaScript' then
       local js = maybe_dereference_object(obj.dict.JS, pdf, task)
 
       if js then
@@ -1248,7 +1248,7 @@ local function process_pdf(input, mpart, task)
                   pdf_object.openaction.object.major, pdf_object.openaction.object.minor)
               table.insert(pdf_output.fuzzy_hashes, pdf_object.openaction.bin_hash)
             else
-              lua_util.debugm(N, task, "pdf: skip fuzzy hash from Javascript: %s, too short: %s",
+              lua_util.debugm(N, task, "pdf: skip fuzzy hash from JavaScript: %s, too short: %s",
                   pdf_object.openaction.hash, #pdf_object.openaction.data)
             end
           end
@@ -1256,13 +1256,13 @@ local function process_pdf(input, mpart, task)
           -- All hashes
           for h,sc in pairs(pdf_object.scripts) do
             if config.min_js_fuzzy and #sc.data >= config.min_js_fuzzy then
-              lua_util.debugm(N, task, "pdf: add fuzzy hash from Javascript: %s; size = %s; object: %s:%s",
+              lua_util.debugm(N, task, "pdf: add fuzzy hash from JavaScript: %s; size = %s; object: %s:%s",
                   sc.hash,
                   #sc.data,
                   sc.object.major, sc.object.minor)
               table.insert(pdf_output.fuzzy_hashes, h)
             else
-              lua_util.debugm(N, task, "pdf: skip fuzzy hash from Javascript: %s, too short: %s",
+              lua_util.debugm(N, task, "pdf: skip fuzzy hash from JavaScript: %s, too short: %s",
                   sc.hash, #sc.data)
             end
           end
