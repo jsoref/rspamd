@@ -6019,7 +6019,7 @@
   * Add multimap lua plugin
   * Fix some multimap issues
   * Try to save images hashes to fuzzy storage to stop some annoying spammers
-  * Allocate some more bytes for read buffer to avoid incorrect behavoiur
+  * Allocate some more bytes for read buffer to avoid incorrect behaviour
   * Add ability to check dns black lists by multimap module
   * Add multimap documentation
   * Fix labels parsing
