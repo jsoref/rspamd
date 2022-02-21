@@ -1693,7 +1693,7 @@
   * [Fix] Fix matching patterns with no paths
   * [Fix] Fix memory leak in parsing comments
   * [Fix] Fix parsing of urls with numeric password
-  * [Fix] Fix plugins intialisation in configwizard
+  * [Fix] Fix plugins initialisation in configwizard
   * [Fix] Fix potential crash on reload
   * [Fix] Fix potential race condition for a finished HTTP connections
   * [Fix] Fix race-condition leak on processes reload
