@@ -5406,7 +5406,7 @@
     - use sqlite instead of own memory based hash tables
     - rework commands interface
     - add conversion from the old format
-    - add fuzzy match by shignles
+    - add fuzzy match by shingles
     - support old rspamd versions
   * Add lemmatizing for words used in fuzzy hashes that allows to improve match
   quality by using of the first forms of all words
