@@ -828,7 +828,7 @@
   * [CritFix] Eliminate old endpoint
   * [CritFix] Fix case sensivity when parsing Content-Type
   * [CritFix] Fix loading of DKIM public keys
-  * [CritFix] Fix procesing of urls
+  * [CritFix] Fix processing of urls
   * [CritFix] Fix whitelisting when both spf and dkim are required to be valid
   * [CritFix] Langdet: Fix language detection where no stop words found
   * [Feature] Add description to the groups
