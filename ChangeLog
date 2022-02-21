@@ -5600,7 +5600,7 @@
   * Migrated to `librdns` for DNS resolving that improves concurrency for
   DNS requests significantly
   * Fixed tonns of bugs in MIME processing
-  * Improved metrcis and default symbol's weights
+  * Improved metrics and default symbol's weights
   * Added new RBL's
   * Fixed a number of issues in the modules
   * Removed several memory leaks found
