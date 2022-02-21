@@ -653,7 +653,7 @@
   * [Fix] Fix maps expressions evaluation
   * [Fix] Fix sentinel connections leak by using async connections
   * [Fix] Fix smtp message on passthrough result
-  * [Fix] Fix tld compositon rules
+  * [Fix] Fix tld composition rules
   * [Fix] Fuzzy_storage: Do not check for shingles if a direct hash has been found
   * [Fix] Lua_mime: Do not perform QP encoding for 7bit parts
   * [Fix] Neural: Distinguish missing symbols from symbols with low scores
