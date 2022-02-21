@@ -431,7 +431,7 @@ Revision history for libev, a high-performance and full-featured event loop.
           and some other default values.
 
 3.41 Fri May 23 18:42:54 CEST 2008
-	- work around an obscure bug in winsocket select: if you
+	- work around an obscure bug in winsock select: if you
           provide only empty fd sets then select returns WSAEINVAL. how sucky.
         - improve timer scheduling stability and reduce use of time_epsilon.
         - use 1-based 2-heap for EV_MINIMAL, simplifies code, reduces
