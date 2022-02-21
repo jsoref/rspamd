@@ -3156,7 +3156,7 @@
   * [Fix] Ignore lua metatokens in bayes for now
   * [Fix] Improve HOMOGRAPH_URL rule
   * [Fix] Lua IP from string should be invalid if parsing failed
-  * [Fix] Miltiple fixes to new lua_tcp, add debugging
+  * [Fix] Multiple fixes to new lua_tcp, add debugging
   * [Fix] More fixes for iterators cleanup
   * [Fix] More fixes to logger initialization
   * [Fix] More heuristic fixes for phishing detection
@@ -3348,7 +3348,7 @@
   * [Fix] Fix usage of config during reload
   * [Fix] Fix various warnings and issues
   * [Fix] Invalidate ANN if training data is incorrect
-  * [Fix] Miltiple fixes to fann_redis module
+  * [Fix] Multiple fixes to fann_redis module
   * [Fix] More fixes for URLs with backslashes
   * [Fix] Properly get options for ip_score module
   * [Fix] Relax requirements for Received as gmail cannot RFC
