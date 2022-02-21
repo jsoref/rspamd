@@ -5513,7 +5513,7 @@
     - implement the most common signal handlers for all workers;
     - add callbacks for workers specific signal handlers
   *  Fix critical issue with fuzzy storage:
-    Fuzzy stroage could not save any hashes on termination due to bugged
+    Fuzzy storage could not save any hashes on termination due to bugged
     signals handling
     * Fix roll history IP storage
     * Rework ipv4/ipv6 handling in parsing addresses:
