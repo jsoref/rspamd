@@ -1,10 +1,10 @@
 v1.4.5
 fix : Compression ratio regression on huge files (> 3 GB) using high levels (--ultra) and multithreading, by @terrelln
 perf: Improved decompression speed: x64 : +10% (clang) / +5% (gcc); ARM : from +15% to +50%, depending on SoC, by @terrelln
-perf: Automatically downsizes ZSTD_DCtx when too large for too long (#2069, by @bimbashreshta)
+perf: Automatically downsizes ZSTD_DCtx when too large for too long (#2069, by @bimbashrestha)
 perf: Improved fast compression speed on aarch64 (#2040, ~+3%, by @caoyzh)
 perf: Small level 1 compression speed gains (depending on compiler)
-cli : New --patch-from command, create and apply patches from files, by @bimbashreshta
+cli : New --patch-from command, create and apply patches from files, by @bimbashrestha
 cli : New --filelist= : Provide a list of files to operate upon from a file
 cli : -b -d command can now benchmark decompression on multiple files
 cli : New --no-content-size command
