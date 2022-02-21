@@ -812,7 +812,7 @@ rspamd_message_process_text_part_maybe (struct rspamd_task *task,
 	/* Skip attachments */
 	if ((found_txt || found_html) &&
 			(mime_part->cd && mime_part->cd->type == RSPAMD_CT_ATTACHMENT)) {
-		if (!task->cfg->check_text_attachements) {
+		if (!task->cfg->check_text_attachments) {
 			debug_task ("skip attachments for checking as text parts");
 			return FALSE;
 		}

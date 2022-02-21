@@ -4773,7 +4773,7 @@
   * Improve support of SA rules and plugins:
     - add check_for_shifted_date and check_for_missing_to_header eval rules;
     - add 'check_relays_unparseable' support;
-    - add `check_for_mime('mime_attachement')` function;
+    - add `check_for_mime('mime_attachment')` function;
     - use new re_cache interface for all SA rules;
     - add support for `Mail::SpamAssassin::Plugin::MIMEHeader`;
     - add support of 'special' SA headers to `exists` function;
@@ -5747,7 +5747,7 @@
    - bayes is now default classifier
 0.5.2:
   * Added lua bindings for:
-   - basic mime parts, that allows checkign attachements for example;
+   - basic mime parts, that allows checkign attachments for example;
    - DNS resolver;
   * Existing lua bindings now works without task object allowing to use them
   in custom code.
@@ -6005,7 +6005,7 @@
   * Add rspamd_log variable to lua plugins to access logging functions
   * Each part in rspamd task now can have parent part
   * Check for parts distance only for multipart/alternative subparts
-  * Do not check attachements even if they are text (but attached as file)
+  * Do not check attachments even if they are text (but attached as file)
   * Do not die if write (2) returned ENOSPACE while doing logging, turn on throttling mode instead (1 write try in a second)
   * Add ability to turn on debug for specific symbols
   * Add ability to configure dns timeouts and dns retransmits in config file
