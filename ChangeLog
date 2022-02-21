@@ -2891,7 +2891,7 @@
   * [Feature] Allow to extract CTE in Lua API
   * [Feature] Allow to set from address for a lua_task
   * [Feature] Allow to set recipients of a task from Lua
-  * [Feature] Enchance text_part:get_content method
+  * [Feature] Enhance text_part:get_content method
   * [Feature] Remove + aliases from emails
   * [Feature] Support rmilter block and dkim signature in CGP helper
   * [Feature] Support running event loop from Lua
