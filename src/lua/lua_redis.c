@@ -188,7 +188,7 @@ lua_redis_dtor (struct lua_redis_ctx *ctx)
 	struct redisAsyncContext *ac;
 
 	ud = &ctx->async;
-	msg_debug_lua_redis ("desctructing %p", ctx);
+	msg_debug_lua_redis ("destructing %p", ctx);
 
 	if (ud->ctx) {
 
@@ -1097,7 +1097,7 @@ rspamd_lua_redis_prepare_connection (lua_State *L, gint *pcbref, gboolean is_asy
  * Make request to redis server, params is a table of key=value arguments in any order
  * @param {task} task worker task object
  * @param {ip|string} host server address
- * @param {function} callback callback to be called in form `function (task, err, data)`
+ * @param {function} callback to be called in form `function (task, err, data)`
  * @param {string} cmd command to be sent to redis
  * @param {table} args numeric array of strings used as redis arguments
  * @param {number} timeout timeout in seconds for request (1.0 by default)

@@ -314,7 +314,7 @@
   * [Rework] Rework tags parsing machine
   * [Rework] Slightly improve old regexp API
   * [Rework] Start conversion of the redis pool code to c++
-  * [Rework] Try to resolve failed upstreams more agressively
+  * [Rework] Try to resolve failed upstreams more aggressively
   * [Rework] Use C++ utf8 library with unit tests to trim whitespaces
   * [Rework] Use C++ version for unicode normalisation
   * [Rework] Use C++ version of the lua threads pool
@@ -407,14 +407,14 @@
   * [Fix] Use message pointer to avoid obsolete data to be cached
   * [Project] Rbl: Migrate to `checks`
   * [Project] Rbl: Move config code outside of the plugin
-  * [Project] Ressurect empty prefilters as connection filters
+  * [Project] Resurrect empty prefilters as connection filters
   * [Project] Support connection filters registration from Lua
   * [Rework] Add final cleanup logic
   * [Rework] Add preliminary support of hyperscan caching for re maps
   * [Rework] Add stale cache removal
   * [Rework] Clickhouse: Improve performance
   * [Rework] Distinguish between strict config test mode
-  * [Rework] Furhter logging improvements
+  * [Rework] Further logging improvements
   * [Rework] Milter_headers: improve extended_headers_rcpt support
   * [Rework] Move parsers to a separate lua library
   * [Rework] Neural: Skip composite symbols
@@ -510,7 +510,7 @@
   * [Fix] Fix types check and types usage in lua_cryptobox
   * [Fix] Fix unused results
   * [Fix] Fuzzy_check: Disable shingles for short texts (really)
-  * [Fix] Ical: Fix identation grammar
+  * [Fix] Ical: Fix indentation grammar
   * [Fix] Improve part:is_attachment logic
   * [Fix] Mmap return value must be checked versus MAP_FAILED
   * [Fix] One more fix to skip images that are not urls
@@ -653,7 +653,7 @@
   * [Fix] Fix maps expressions evaluation
   * [Fix] Fix sentinel connections leak by using async connections
   * [Fix] Fix smtp message on passthrough result
-  * [Fix] Fix tld compositon rules
+  * [Fix] Fix tld composition rules
   * [Fix] Fuzzy_storage: Do not check for shingles if a direct hash has been found
   * [Fix] Lua_mime: Do not perform QP encoding for 7bit parts
   * [Fix] Neural: Distinguish missing symbols from symbols with low scores
@@ -782,7 +782,7 @@
   * [Fix] Correct EMA time calculations
   * [Fix] Do not treat archives as text
   * [Fix] Do not use strdup on data extracted from lua
-  * [Fix] Fix a failure calcuating URL reputation.
+  * [Fix] Fix a failure calculating URL reputation.
   * [Fix] Fix crash due to constructors init order
   * [Fix] Fix crash on parts with no cd
   * [Fix] Fix empty prefilters that require mime structures
@@ -799,7 +799,7 @@
   * [Fix] Lua_tcp: Deal with temporary fails on write
   * [Fix] Lua_tcp: Make write errors fatal and rework error handlers
   * [Fix] Meta: Filter some more values
-  * [Fix] Neural: Add protection agains infinities
+  * [Fix] Neural: Add protection against infinities
   * [Fix] Oops, fix math.huge invocation
   * [Fix] Plug memory leak
   * [Fix] Sigh, another email to string fix
@@ -824,11 +824,11 @@
   * [Conf] Surbl: Utilise new `check_emails` option
   * [Conf] Update header
   * [Conf] Use multi-prefixes RBLs in the default config
-  * [CritFix] Deal with case-sensivity in Content-Disposition parser
+  * [CritFix] Deal with case-sensitivity in Content-Disposition parser
   * [CritFix] Eliminate old endpoint
-  * [CritFix] Fix case sensivity when parsing Content-Type
+  * [CritFix] Fix case sensitivity when parsing Content-Type
   * [CritFix] Fix loading of DKIM public keys
-  * [CritFix] Fix procesing of urls
+  * [CritFix] Fix processing of urls
   * [CritFix] Fix whitelisting when both spf and dkim are required to be valid
   * [CritFix] Langdet: Fix language detection where no stop words found
   * [Feature] Add description to the groups
@@ -868,7 +868,7 @@
   * [Feature] Maps: Allow caching for complex maps
   * [Feature] Monitored: Support random lookups
   * [Feature] Multimap: Add combined maps prototype
-  * [Feature] Multimap: Add dependend maps via redis keys selectors
+  * [Feature] Multimap: Add dependent maps via redis keys selectors
   * [Feature] Multimap: Allow multiple email addresses matches
   * [Feature] Multimap: Also check detected charset when do filename checks
   * [Feature] Output number of messages processed to proctitle
@@ -942,7 +942,7 @@
   * [Fix] Fix fuzzy image score calculation #2962
   * [Fix] Fix hang in fuzzy_learn when explicit rotation is set
   * [Fix] Fix headers propagation logic
-  * [Fix] Fix hearbeats restart issue
+  * [Fix] Fix heartbeats restart issue
   * [Fix] Fix history reset
   * [Fix] Fix log parameter
   * [Fix] Fix lua_ip_equal logic
@@ -1153,7 +1153,7 @@
   * [Fix] Finally fix default parameters parsing in actions section
   * [Fix] Fix ES sending logic (restore from coroutines mess)
   * [Fix] Fix finishing script for clickhouse collection
-  * [Fix] Fix priority for regexp symbols registriation
+  * [Fix] Fix priority for regexp symbols registration
   * [Fix] Fix various issues found by PVS Studio
   * [Fix] Initialize lua debugging earlier
   * [Fix] Neural: Fix training
@@ -1270,7 +1270,7 @@
   * [Fix] Ignore whitespaces at the end of value in DKIM records
   * [Fix] MID module: Fix DKIM domain matching
   * [Fix] Milter_headers: Fix remove_upstream_spam_flag and modernise config
-  * [Fix] Mime_parser: Fix issue with parsing of the trailing garbadge
+  * [Fix] Mime_parser: Fix issue with parsing of the trailing garbage
   * [Fix] Mime_parser: Fix parsing of mime parts without closing boundary
   * [Fix] Multimap: Fix operating with userdata
   * [Fix] Process orphaned `symbols` section
@@ -1378,11 +1378,11 @@
   * [Fix] Fix override_defaults function
   * [Fix] Fix squeezed symbols when using settings
   * [Fix] Fix urls insertion in Clickhouse module
-  * [Fix] Furhter fixes to ratelimits logic
+  * [Fix] Further fixes to ratelimits logic
   * [Fix] Ignore signatures when looking for boundaries
   * [Fix] Properly set learned count
   * [Fix] Really fix ratelimits configuration and work
-  * [Fix] Remove ambigious format flag from printf
+  * [Fix] Remove ambiguous format flag from printf
   * [Fix] Restore URLs exporting in ClickHouse plugin
   * [Fix] Rework bayes calculations...
   * [Fix] Switch from chi-square to naive for large Fisher value
@@ -1548,7 +1548,7 @@
   * [Fix] Fix legacy history handling in the controller
   * [Fix] Fix messages insertion
   * [Fix] Fix sending string method
-  * [Fix] Fix statconver command line arguments
+  * [Fix] Fix statconvert command line arguments
   * [Fix] Fixed argument checking for being null
   * [Fix] Fixed issues reported by luacheck
   * [Fix] Freeze updates queue when do actual storage update
@@ -1693,7 +1693,7 @@
   * [Fix] Fix matching patterns with no paths
   * [Fix] Fix memory leak in parsing comments
   * [Fix] Fix parsing of urls with numeric password
-  * [Fix] Fix plugins intialisation in configwizard
+  * [Fix] Fix plugins initialisation in configwizard
   * [Fix] Fix potential crash on reload
   * [Fix] Fix potential race condition for a finished HTTP connections
   * [Fix] Fix race-condition leak on processes reload
@@ -1810,7 +1810,7 @@
   * [Fix] Fix lua RSA verify and its tests
   * [Fix] Fix metadata exporter send_mail backend (#2124)
   * [Fix] Fix processing of '\v' in libucl
-  * [Fix] Fix shemaless URLs detection
+  * [Fix] Fix schemaless URLs detection
   * [Fix] Fix support of multiple headers in sign_header
   * [Fix] Fix usage of util.parse_mail_address
   * [Fix] Fix weights of dynamic squeezed rules
@@ -1921,7 +1921,7 @@
   * [Feature] Add routine to convert old style stats to a new one
   * [Feature] Add some sanity checks for actions and controller
   * [Feature] Add statistic convertation module to configwizard
-  * [Feature] Add sugestions logic to mempool allocator
+  * [Feature] Add suggestions logic to mempool allocator
   * [Feature] Add support of config transform in Lua
   * [Feature] Add timeout to rspamc when doing corpus test
   * [Feature] Add tooling to convert bayes schemas
@@ -2064,7 +2064,7 @@
   * [Fix] Detection of maillist optimized and fixed
   * [Fix] DKIM signing: allow for auth_only to be false
   * [Fix] DMARC: require report_settings for sending reports only
-  * [Fix] Do not allow garbadge when checking url domain
+  * [Fix] Do not allow garbage when checking url domain
   * [Fix] Do not cache SPF records with PTR elements
   * [Fix] Do not constantly re-resolve failed upstreams with a single element
   * [Fix] Do not crash if no words defined
@@ -2101,7 +2101,7 @@
   * [Fix] Fix build on FreeBSD
   * [Fix] Fix clickhouse exporter
   * [Fix] Fix clickhouse schema
-  * [Fix] Fix comparision
+  * [Fix] Fix comparison
   * [Fix] Fix composites processing
   * [Fix] Fix connecting to a unix socket in rspamadm statconvert
   * [Fix] Fix couple of warnings
@@ -2237,7 +2237,7 @@
   * [Fix] Various fixes to fann_redis instantiation
   * [Fix] Various improvements in language detection
   * [Fix] Virus infection string for F-PROT Antivirus
-  * [Fix] Virus infetction string for F-PROT Antivirus
+  * [Fix] Virus infection string for F-PROT Antivirus
   * [Fix] WebUI: use relative path for savemap (#1943)
   * [Fix] WHITE_ON_WHITE: Ensure score is matched to part that fired the rule
   * [Fix] Write configuration changes as UCL config
@@ -2316,7 +2316,7 @@
   * [Fix] Exim Received header protocol parsing
   * [Fix] First load selector_map and path_map. And only return false when domain not found if try_fallback is false
   * [Fix] Fix bad archive characters stripping
-  * [Fix] Fix comparision
+  * [Fix] Fix comparison
   * [Fix] Fix connecting to a unix socket in rspamadm statconvert
   * [Fix] Fix empty headers simple canonicalization
   * [Fix] Fix extra hits in PCRE mode for regular expressions
@@ -2355,7 +2355,7 @@
   * [Fix] Check for magic when checking for an archive
   * [Fix] Deal with another case when processing exceptions
   * [Fix] Deal with URLs with no slashes after protocol
-  * [Fix] Do not allow garbadge when checking url domain
+  * [Fix] Do not allow garbage when checking url domain
   * [Fix] Do not ignore short words
   * [Fix] Do not strip last character in the last word
   * [Fix] Do not treat script content as text
@@ -2510,7 +2510,7 @@
   * [CritFix] Fix learn condition in fuzzy check
   * [CritFix] Fix memory leak in fuzzy check
   * [CritFix] Fix memory leak in maps scheduling
-  * [CritFix] Paese the last character in DKIM signature correctly
+  * [CritFix] Parse the last character in DKIM signature correctly
   * [CritFix] Zero fill sockaddr_un
   * [Feature] Add ability to add doc strings by example
   * [Feature] Add API to verify DKIM (and ARC) signatures
@@ -2546,7 +2546,7 @@
   * [Feature] Fix surbl monitored for IP lists, add `monitored_domain` option
   * [Feature] Implement caching for dkim body hashes
   * [Feature] Implement milter protocol scan reply
-  * [Feature] Improve omograph phishing detection
+  * [Feature] Improve homograph phishing detection
   * [Feature] Initial support of self-scan in Rspamd proxy
   * [Feature] Keep track of headers in milter interface
   * [Feature] Milter headers: better controls for local/authenticated
@@ -2722,7 +2722,7 @@
 1.5.6:
   * [Feature] Add unigramms support in bayes
   * [Feature] Allow configurable sign headers for DKIM
-  * [Feature] Allow to add unigramm metatokens from Lua
+  * [Feature] Allow to add unigram metatokens from Lua
   * [Feature] DKIM Signing: envelope match exception for local IPs
   * [Feature] UCL: register parser variables from Lua
   * [Fix] Always try to adjust filename
@@ -2752,7 +2752,7 @@
   * [Fix] Avoid lookup in absent hash
   * [Fix] Check return values from Lua functions called from C
   * [Fix] Do not count sending and loading time in rspamc
-  * [Fix] Escape json strings for controller rejplies from Lua
+  * [Fix] Escape json strings for controller replies from Lua
   * [Fix] Fix archive scans for savapi
   * [Fix] Fix domain_only emails RBL
   * [Fix] Fix ip_score map configuration
@@ -2880,7 +2880,7 @@
   * [WebUI] Rework history v2 function
 
 1.5.2:
-  * [Conf] Add default config for spamassasssin plugin
+  * [Conf] Add default config for spamassassin plugin
   * [Conf] Add default configuration for antivirus module
   * [Conf] Add dkim signing docs
   * [Conf] Add mx_check default config
@@ -2891,7 +2891,7 @@
   * [Feature] Allow to extract CTE in Lua API
   * [Feature] Allow to set from address for a lua_task
   * [Feature] Allow to set recipients of a task from Lua
-  * [Feature] Enchance text_part:get_content method
+  * [Feature] Enhance text_part:get_content method
   * [Feature] Remove + aliases from emails
   * [Feature] Support rmilter block and dkim signature in CGP helper
   * [Feature] Support running event loop from Lua
@@ -2993,7 +2993,7 @@
   * [Feature] Avira SAVAPI support
   * [Feature] Cache and simplify DCT and jpeg decode
   * [Feature] Cache libicu converters
-  * [Feature] Detect URLs with suspicious omographs
+  * [Feature] Detect URLs with suspicious homographs
   * [Feature] Do not increase score for duplicate options
   * [Feature] Do not trust CTE, check base64 and qp strictly
   * [Feature] Dynamic reputation in URL reputation plugin
@@ -3013,7 +3013,7 @@
   * [Feature] Implement rspamdgrep tool
   * [Feature] Implement sane checksum for config file
   * [Feature] Implement url tags concept
-  * [Feature] Improve detection of omographs using libicu
+  * [Feature] Improve detection of homographs using libicu
   * [Feature] Improve url redirector module
   * [Feature] Multimap: Received header processing
   * [Feature] Multiple improvements in the maps
@@ -3042,14 +3042,14 @@
   * [Feature] Use a different normalization for fuzzy images
   * [Feature] Use normalized images in fuzzy hashes
   * [Feature] Use own code for parsing of date
-  * [Feature] Use shingles for images fuzzying
+  * [Feature] Use shingles for images fuzzing
   * [Feature] Use t1ha for hashes, allow inlining
   * [Feature] Use t1ha instead of metrohash and xxhash32
   * [Feature] Various new features in metadata exporter module
   * [Feature] rmilter_headers: authentication-results (#78)
   * [Fix] Add additional check to mark redis connection inactive
   * [Fix] Add packed attribute for protocol structure
-  * [Fix] Adopt OMOGRAPH_URL rule
+  * [Fix] Adopt HOMOGRAPH_URL rule
   * [Fix] Allow static maps
   * [Fix] Allow to disable classifiers checks using settings and conditions
   * [Fix] Another try to fix 0 length maps
@@ -3114,7 +3114,7 @@
   * [Fix] Fix macro name
   * [Fix] Fix mas group score calculations
   * [Fix] Fix matching of the same patterns from different tries
-  * [Fix] Fix memory corruprtion and leak
+  * [Fix] Fix memory corruption and leak
   * [Fix] Fix memory leak in HTTP maps
   * [Fix] Fix memory leak in expression destroying
   * [Fix] Fix memory leak in parsing of mime names
@@ -3154,9 +3154,9 @@
   * [Fix] Forgotten worker
   * [Fix] Further memory leaks fixes
   * [Fix] Ignore lua metatokens in bayes for now
-  * [Fix] Improve OMOGRAPH_URL rule
+  * [Fix] Improve HOMOGRAPH_URL rule
   * [Fix] Lua IP from string should be invalid if parsing failed
-  * [Fix] Miltiple fixes to new lua_tcp, add debugging
+  * [Fix] Multiple fixes to new lua_tcp, add debugging
   * [Fix] More fixes for iterators cleanup
   * [Fix] More fixes to logger initialization
   * [Fix] More heuristic fixes for phishing detection
@@ -3348,7 +3348,7 @@
   * [Fix] Fix usage of config during reload
   * [Fix] Fix various warnings and issues
   * [Fix] Invalidate ANN if training data is incorrect
-  * [Fix] Miltiple fixes to fann_redis module
+  * [Fix] Multiple fixes to fann_redis module
   * [Fix] More fixes for URLs with backslashes
   * [Fix] Properly get options for ip_score module
   * [Fix] Relax requirements for Received as gmail cannot RFC
@@ -3456,7 +3456,7 @@
   * [Feature] Allow whitelisting by IP for greylisting plugin
   * [Feature] Antivirus: Support whitelists & pattern-matching sig names
   * [Feature] Backport pack/unpack routines from Lua 5.3
-  * [Feature] Check settings with equal priopities in alphabetical order
+  * [Feature] Check settings with equal priorities in alphabetical order
   * [Feature] Compress neural net in redis
   * [Feature] Consider more tags when doing WHITE_ON_WHITE rule
   * [Feature] Descriptive options for DMARC failure symbols
@@ -3517,7 +3517,7 @@
   * [Fix] Another fix for rdns_make_request_full invocation
   * [Fix] Another fix in DKIM canonicalization
   * [Fix] Another memory leak plugged
-  * [Fix] Another try to deal with posix idiotizm
+  * [Fix] Another try to deal with posix idiotism
   * [Fix] Another try to fix RDNS events processing logic
   * [Fix] Avoid double frees in HEAD requests
   * [Fix] Avoid extra symbols for RBLs
@@ -3563,7 +3563,7 @@
   * [Fix] Fix hash creation
   * [Fix] Fix hiredis stupidity
   * [Fix] Fix implicit settings module settingsup
-  * [Fix] Fix interaction with lua GC to avoid craches
+  * [Fix] Fix interaction with lua GC to avoid crashes
   * [Fix] Fix ip_score module registration
   * [Fix] Fix issue with empty messages and dkim
   * [Fix] Fix issues with CGP helper
@@ -3605,7 +3605,7 @@
   * [Fix] One more attempt to fix lua_redis
   * [Fix] One more check for readdir...
   * [Fix] Params should be treated as a hash
-  * [Fix] Plug memory leak in regexp desctructor
+  * [Fix] Plug memory leak in regexp destructor
   * [Fix] Process headers only once
   * [Fix] Properly handle nil values in ratelimit plugin
   * [Fix] Really fix redis shingles check
@@ -3628,7 +3628,7 @@
   * [Fix] Various fixes for errors ringbuffer
   * [Fix] Yield R_SPF_DNSFAIL if lookup of included record fails
   * [Fix] mid: fix map initialization
-  * [Fix] mid: handle incorrect rgexps in the map
+  * [Fix] mid: handle incorrect regexps in the map
   * [Rework] Add extract training data function to fann_redis
   * [Rework] Add preliminary train tests
   * [Rework] Add redis storage feature to fann_redis
@@ -3780,7 +3780,7 @@
   * [Feature] Allow maps with multiple symbols and scores
   * [Feature] Allow regexps in the emails maps
   * [Feature] Allow to register metric symbols from multimap
-  * [Feature] Allow to reset redis tokens instead of appendig values
+  * [Feature] Allow to reset redis tokens instead of appending values
   * [Feature] Allow to store strings in radix maps
   * [Feature] Check UTF validity when there are utf regexps in a map
   * [Feature] Correctly work when there is no hard reject action
@@ -3868,7 +3868,7 @@
   * [Feature] Add function to convert fstring_t to c string
   * [Feature] Add function to create temporary shared memory mapping
   * [Feature] Add function to generate random hex string
-  * [Feature] Add generic fucnction to parse IP maps
+  * [Feature] Add generic function to parse IP maps
   * [Feature] Add initial version of HTTP lua repl
   * [Feature] Add learn condition to the default configuration
   * [Feature] Add learn conditions for classifiers
@@ -3965,7 +3965,7 @@
   * [Feature] Create a dedicated parser to strip newlines
   * [Feature] Deduplicate the same urls in multimap module
   * [Feature] Distinguish luajit from lua
-  * [Feature] Do not print garbadge in --compact output
+  * [Feature] Do not print garbage in --compact output
   * [Feature] Dynamically detect if a CPU is incompatible with hyperscan
   * [Feature] Enable forced resolving for some lua plugins
   * [Feature] Enable rrd by default
@@ -4058,7 +4058,7 @@
   * [Feature] Support archives when matching patterns in multimap
   * [Feature] Support premium/academic feed for openphish
   * [Feature] Support rspamd_updates via https
-  * [Feature] Supprort FQDNs in phishing module maps
+  * [Feature] Support FQDNs in phishing module maps
   * [Feature] Try to read on fuzzy timeout to avoid fake timeouts
   * [Feature] Try to select the optimal possible function for input
   * [Feature] Unescape and unquote smtp addresses
@@ -4115,7 +4115,7 @@
   * [Fix] Avoid double hashing for images
   * [Fix] Avoid linking with actrie if hyperscan is enabled
   * [Fix] Check copy result when sending message to mirrors
-  * [Fix] Cleanup message when assiging body
+  * [Fix] Cleanup message when assigning body
   * [Fix] Cleanup stack from global vars
   * [Fix] Correctly parse query type
   * [Fix] Disable all symbols if enable_groups is found in settings
@@ -4172,7 +4172,7 @@
   * [Fix] Fix errors counting in upstreams
   * [Fix] Fix errors handling in the proxy
   * [Fix] Fix event bases for IO events
-  * [Fix] Fix events handling when scheduling map wacth
+  * [Fix] Fix events handling when scheduling map watch
   * [Fix] Fix fann rewrite
   * [Fix] Fix files fallback for shmem transfer
   * [Fix] Fix fuzzy adding in webui
@@ -4266,7 +4266,7 @@
   * [Fix] Further fixes for surbl extensions map
   * [Fix] Further fixes in maps code
   * [Fix] Further improvements to error messages in fuzzy check
-  * [Fix] Further tweaks to redis garbadge collection
+  * [Fix] Further tweaks to redis garbage collection
   * [Fix] Groups are now case insensitive
   * [Fix] Handle log pipe read errors
   * [Fix] Handle nested dependencies in SpamAssassin plugin
@@ -4346,7 +4346,7 @@
   * [Fix] Use non-blocking mode for systemd sockets
   * [Fix] Use shared memory merely for local backends in the proxy
   * [Fix] Use watchers for spf plugin
-  * [Fix] Varioud fixes to the maps code
+  * [Fix] Various fixes to the maps code
 
 1.2.8:
   * Another fix for exim workaround (#637)
@@ -4362,7 +4362,7 @@
 
 1.2.7:
   * Slightly reduce weights of rules with high FP rate
-  * Add workround for rspamd-1.3
+  * Add workaround for rspamd-1.3
   * Fix possible FP in TRACKER_ID rule
   * Simplify MISSING_MIMEOLE rule
   * Add workaround for gmime CTE stupidity
@@ -4537,7 +4537,7 @@
   * New dynamic updates plugin
   * Regular expressions map support
   * Faster radix trie algorithm
-  * Faster siphash for AVX2 supporing CPUs (used in fuzzy hashes)
+  * Faster siphash for AVX2 supporting CPUs (used in fuzzy hashes)
   * PCRE2 support
   * Allow quoted and slashed keys in map
   * Add proper support of DNS resolvers balancing (#552)
@@ -4773,7 +4773,7 @@
   * Improve support of SA rules and plugins:
     - add check_for_shifted_date and check_for_missing_to_header eval rules;
     - add 'check_relays_unparseable' support;
-    - add `check_for_mime('mime_attachement')` function;
+    - add `check_for_mime('mime_attachment')` function;
     - use new re_cache interface for all SA rules;
     - add support for `Mail::SpamAssassin::Plugin::MIMEHeader`;
     - add support of 'special' SA headers to `exists` function;
@@ -5201,7 +5201,7 @@
   * Fix memory leak if mime cannot be parsed.
   * Fix dkim cache expiration.
   * Fix issues with redirector HTTP response.
-  * Fix abnormal connection closing with certains messages with a high score
+  * Fix abnormal connection closing with certain messages with a high score
     (issue #296)
   * Fix redirector installation.
   * Use specific POE loop for some systems.
@@ -5230,7 +5230,7 @@
   * Fix critical bugs in words normalization
   * Add lua bindings to tokenizer.
   * Implement storing of HTTP headers inside task
-  * Add lua API to accerss HTTP headers data
+  * Add lua API to access HTTP headers data
   * Implemented base64 encoding suitable for MIME
   * Use caseless hash and equal functions for HTTP request headers.
   * Improve debian architectures support (by @dottedmag)
@@ -5287,7 +5287,7 @@
     - DMARC plugin that evaluates SPF and DKIM policies to the domain policies
     - many old plugins has been reworked to implement new features and improve
       stability
-  * New aho-corasic trie implementation from @mischasan that allows to load and
+  * New aho-corasick trie implementation from @mischasan that allows to load and
     use hundreds of thousands of patterns with no influence on load
   * Support of PCRE JIT and PCRE JIT fast path modes that significantly improves
     the performance of regular expressions if supported by PCRE
@@ -5406,7 +5406,7 @@
     - use sqlite instead of own memory based hash tables
     - rework commands interface
     - add conversion from the old format
-    - add fuzzy match by shignles
+    - add fuzzy match by shingles
     - support old rspamd versions
   * Add lemmatizing for words used in fuzzy hashes that allows to improve match
   quality by using of the first forms of all words
@@ -5436,7 +5436,7 @@
   * Decode entitles when normalizing HTML parts
   * Fix logic of finding URLs in HTML parts
   * Do not include \0 into length of text when performing conversion to utf8
-  * Fix raw vs parsed reperesentations
+  * Fix raw vs parsed representations
     Raw parts are now:
       - decoded b64/qp, but *NOT* converted to utf-8
     Processed parts are now:
@@ -5461,7 +5461,7 @@
   * Decode URLs obtained from HTML tags
   * Fix crash with unweighted upstreams
   * Stop processing headers in parts
-  * Set sockaddr.sa_family properly when connectig to upstreams
+  * Set sockaddr.sa_family properly when connecting to upstreams
   * Fix reload issues in surbl and fuzzy_check (reported by @citrin)
   * Fix timeouts in redirector
   * Improve lua errors reporting
@@ -5513,7 +5513,7 @@
     - implement the most common signal handlers for all workers;
     - add callbacks for workers specific signal handlers
   *  Fix critical issue with fuzzy storage:
-    Fuzzy stroage could not save any hashes on termination due to bugged
+    Fuzzy storage could not save any hashes on termination due to bugged
     signals handling
     * Fix roll history IP storage
     * Rework ipv4/ipv6 handling in parsing addresses:
@@ -5581,7 +5581,7 @@
   * Improve documentation
 
 0.7.0:
-  * Use HTTP protocol for all operatiosn
+  * Use HTTP protocol for all operations
   * Webui worker is now removed and controller works as webui
   * Allow to serve static files via controller by option `static_dir`
   * Rspamd interface is now a part of rspamd
@@ -5600,7 +5600,7 @@
   * Migrated to `librdns` for DNS resolving that improves concurrency for
   DNS requests significantly
   * Fixed tonns of bugs in MIME processing
-  * Improved metrcis and default symbol's weights
+  * Improved metrics and default symbol's weights
   * Added new RBL's
   * Fixed a number of issues in the modules
   * Removed several memory leaks found
@@ -5747,7 +5747,7 @@
    - bayes is now default classifier
 0.5.2:
   * Added lua bindings for:
-   - basic mime parts, that allows checkign attachements for example;
+   - basic mime parts, that allows checking attachments for example;
    - DNS resolver;
   * Existing lua bindings now works without task object allowing to use them
   in custom code.
@@ -5902,7 +5902,7 @@
   * Fix compatibility issues
   * Fix -lintl detection
   * Init some variables to avoid problems
-  * Remove garbadge (gnome terminal sucks)
+  * Remove garbage (gnome terminal sucks)
   * Add more information about why we drop smtp connection
   * Fix mkstemp call
   * Send to upstream QUIT command at the end of session
@@ -5966,7 +5966,7 @@
   * Fix check_smtp_data function
   * Add ability to make views by recipient
   * Add ability to set metric's action from config file
-  * Fix bug with writing garbadge if message has no urls or no messages
+  * Fix bug with writing garbage if message has no urls or no messages
   * Fix bug with incorrect behaviour of compare_parts_distance function
   * Add ability to assign several actions to one metric
   * Report action in rspamc protocol
@@ -6005,7 +6005,7 @@
   * Add rspamd_log variable to lua plugins to access logging functions
   * Each part in rspamd task now can have parent part
   * Check for parts distance only for multipart/alternative subparts
-  * Do not check attachements even if they are text (but attached as file)
+  * Do not check attachments even if they are text (but attached as file)
   * Do not die if write (2) returned ENOSPACE while doing logging, turn on throttling mode instead (1 write try in a second)
   * Add ability to turn on debug for specific symbols
   * Add ability to configure dns timeouts and dns retransmits in config file
@@ -6019,7 +6019,7 @@
   * Add multimap lua plugin
   * Fix some multimap issues
   * Try to save images hashes to fuzzy storage to stop some annoying spammers
-  * Allocate some more bytes for read buffer to avoid incorrect behavoiur
+  * Allocate some more bytes for read buffer to avoid incorrect behaviour
   * Add ability to check dns black lists by multimap module
   * Add multimap documentation
   * Fix labels parsing

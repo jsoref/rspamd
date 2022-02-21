@@ -79,7 +79,7 @@ local function redis_query_sentinel(ev_base, params, initialised)
       for _,m in ipairs(result) do
         local master = flatten_redis_table(m)
 
-        -- Wrap IPv6-adresses in brackets
+        -- Wrap IPv6-addresses in brackets
         if (master.ip:match(":")) then
           master.ip = "["..master.ip.."]"
         end
@@ -110,7 +110,7 @@ local function redis_query_sentinel(ev_base, params, initialised)
               lutil.debugm(N, rspamd_config,
                   'found slave for master %s with ip %s and port %s',
                   v.name, slave.ip, slave.port)
-              -- Wrap IPv6-adresses in brackets
+              -- Wrap IPv6-addresses in brackets
               if (slave.ip:match(":")) then
                 slave.ip = "["..slave.ip.."]"
               end
@@ -994,7 +994,7 @@ end
 -- @param {table} redis_params redis configuration in format returned by lua_redis.parse_redis_server()
 -- @param {string} key key to use for sharding
 -- @param {boolean} is_write should be `true` if we are performing a write operating
--- @param {function} callback callback function (first parameter is error if applicable, second is a 2D array (table))
+-- @param {function} callback function (first parameter is error if applicable, second is a 2D array (table))
 -- @param {string} command Redis command to run
 -- @param {table} args Numerically indexed table containing arguments for command
 --]]

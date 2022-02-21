@@ -1784,9 +1784,9 @@ rspamd_rcl_config_init (struct rspamd_config *cfg, GHashTable *skip_sections)
 				0,
 				"Add all symbols only once per message");
 		rspamd_rcl_add_default_handler (sub,
-				"check_attachements",
+				"check_attachments",
 				rspamd_rcl_parse_struct_boolean,
-				G_STRUCT_OFFSET (struct rspamd_config, check_text_attachements),
+				G_STRUCT_OFFSET (struct rspamd_config, check_text_attachments),
 				0,
 				"Treat text attachments as normal text parts");
 		rspamd_rcl_add_default_handler (sub,

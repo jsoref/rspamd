@@ -8,7 +8,7 @@
 # You can modify 'override.d/worker-fuzzy.inc' to strictly override all
 # parameters defined inside this section
 #
-# See https://rspamd.com/doc/faq.html#what-are-the-locald-and-overrided-directories
+# See https://rspamd.com/doc/faq.html#what-are-the-locald-and-overridden-directories
 # for details
 # Module documentation: https://rspamd.com/doc/workers/fuzzy_storage.html
 

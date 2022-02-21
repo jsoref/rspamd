@@ -404,7 +404,7 @@ namespace rspamd {
 				auto pos = pos_it->second;
 				auto query = args[pos];
 
-				if (!query->isEvaluatable (*pcontext)) {
+				if (!query->isEvaluable (*pcontext)) {
 					print_remark ("cannot evaluate query",
 							E, this->pcontext, this->ci);
 					/* It is not assumed to be an error */

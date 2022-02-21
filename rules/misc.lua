@@ -389,12 +389,12 @@ rspamd_config:register_symbol({
 rspamd_config:register_dependency('FREEMAIL_REPLYTO_NEQ_FROM_DOM', 'FREEMAIL_REPLYTO')
 rspamd_config:register_dependency('FREEMAIL_REPLYTO_NEQ_FROM_DOM', 'FREEMAIL_FROM')
 
-rspamd_config.OMOGRAPH_URL = {
+rspamd_config.HOMOGRAPH_URL = {
   callback = function(task)
     local urls = task:get_urls()
 
     if urls then
-      local bad_omographs = 0
+      local bad_homographs = 0
       local single_bad_omograps = 0
       local bad_urls = {}
       local seen = {}
@@ -411,7 +411,7 @@ rspamd_config.OMOGRAPH_URL = {
             local selt = string.format('%s->%s', h1, h2)
             if not seen[selt] and util.is_utf_spoofed(h1, h2) then
               bad_urls[#bad_urls + 1] = selt
-              bad_omographs = bad_omographs + 1
+              bad_homographs = bad_homographs + 1
             end
             seen[selt] = true
           end
@@ -429,7 +429,7 @@ rspamd_config.OMOGRAPH_URL = {
         end
       end, urls)
 
-      if bad_omographs > 0 then
+      if bad_homographs > 0 then
         return true, 1.0, bad_urls
       elseif single_bad_omograps > 0 then
         return true, 0.5, bad_urls

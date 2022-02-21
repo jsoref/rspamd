@@ -359,7 +359,7 @@ gint rspamd_strings_levenshtein_distance (const gchar *s1, gsize s1len,
 /**
  * Fold header using rfc822 rules, return new GString from the previous one
  * @param name name of header (used just for folding)
- * @param value value of header
+ * @param value of header
  * @param fold_max
  * @param how
  * @param fold_on_chars

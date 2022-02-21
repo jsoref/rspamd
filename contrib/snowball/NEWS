@@ -47,7 +47,7 @@ New Code Generators
 * Add Python generator (#24).  Originally written by Yoshiki Shibukawa, with
   additional updates by Dmitry Shachnev.
 
-* Add Javascript generator.  Based on JSX generator (#26) written by Yoshiki
+* Add JavaScript generator.  Based on JSX generator (#26) written by Yoshiki
   Shibukawa.
 
 * Add Rust generator from Jakob Demler (#51).

@@ -531,8 +531,8 @@ err:
  * * `session` - asynchronous session normally associated with rspamd task (`task:get_session()`)
  * * `mempool` - pool memory pool for storing intermediate data
  * * `name` - host name to resolve
- * * `callback` - callback callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
- * * `forced` - true if needed to override notmal limit for DNS requests
+ * * `callback` - callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
+ * * `forced` - true if needed to override normal limit for DNS requests
  * @return {boolean} `true` if DNS request has been scheduled
  */
 static int
@@ -561,8 +561,8 @@ lua_dns_resolver_resolve_a (lua_State *L)
  * * `session` - asynchronous session normally associated with rspamd task (`task:get_session()`)
  * * `mempool` - pool memory pool for storing intermediate data
  * * `name` - host name to resolve
- * * `callback` - callback callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
- * * `forced` - true if needed to override notmal limit for DNS requests
+ * * `callback` - callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
+ * * `forced` - true if needed to override normal limit for DNS requests
  * @return {boolean} `true` if DNS request has been scheduled
  */
 static int
@@ -591,8 +591,8 @@ lua_dns_resolver_resolve_ptr (lua_State *L)
  * * `session` - asynchronous session normally associated with rspamd task (`task:get_session()`)
  * * `mempool` - pool memory pool for storing intermediate data
  * * `name` - host name to resolve
- * * `callback` - callback callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
- * * `forced` - true if needed to override notmal limit for DNS requests
+ * * `callback` - callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
+ * * `forced` - true if needed to override normal limit for DNS requests
  * @return {boolean} `true` if DNS request has been scheduled
  */
 static int
@@ -621,8 +621,8 @@ lua_dns_resolver_resolve_txt (lua_State *L)
  * * `session` - asynchronous session normally associated with rspamd task (`task:get_session()`)
  * * `mempool` - pool memory pool for storing intermediate data
  * * `name` - host name to resolve
- * * `callback` - callback callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
- * * `forced` - true if needed to override notmal limit for DNS requests
+ * * `callback` - callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
+ * * `forced` - true if needed to override normal limit for DNS requests
  * @return {boolean} `true` if DNS request has been scheduled
  */
 static int
@@ -651,8 +651,8 @@ lua_dns_resolver_resolve_mx (lua_State *L)
  * * `session` - asynchronous session normally associated with rspamd task (`task:get_session()`)
  * * `mempool` - pool memory pool for storing intermediate data
  * * `name` - host name to resolve
- * * `callback` - callback callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
- * * `forced` - true if needed to override notmal limit for DNS requests
+ * * `callback` - callback function to be called upon name resolution is finished; must be of type `function (resolver, to_resolve, results, err)`
+ * * `forced` - true if needed to override normal limit for DNS requests
  * @return {boolean} `true` if DNS request has been scheduled
  */
 static int

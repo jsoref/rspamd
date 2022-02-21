@@ -225,7 +225,7 @@ LUA_FUNCTION_DEF (config, register_symbol);
 /***
  * @method rspamd_config:register_symbols(callback, [weight], callback_name, [, symbol, ...])
  * Register callback function to be called for a set of symbols with initial weight.
- * @param {function} callback callback function to be called for a specified symbol
+ * @param {function} callback function to be called for a specified symbol
  * @param {number} weight initial weight of symbol (can be less than zero to specify non-spam symbols)
  * @param {string} callback_name symbolic name of callback
  * @param {list of strings} symbol list of symbols registered by this function
@@ -248,7 +248,7 @@ LUA_FUNCTION_DEF (config, register_virtual_symbol);
  * **This method is deprecated and should not be used in newly written code **
  * @param {string} name symbol's name (just for unique id purposes)
  * @param {number} weight initial weight of symbol (can be less than zero to specify non-spam symbols)
- * @param {function} callback callback function to be called for a specified symbol
+ * @param {function} callback function to be called for a specified symbol
  */
 LUA_FUNCTION_DEF (config, register_callback_symbol);
 LUA_FUNCTION_DEF (config, register_callback_symbol_priority);
@@ -256,7 +256,7 @@ LUA_FUNCTION_DEF (config, register_callback_symbol_priority);
 /***
  * @method rspamd_config:register_dependency(id|name, depname)
  * Create a dependency on symbol identified by name for symbol identified by ID or name.
- * This affects order of checks only (a symbol is still checked if its dependencys are disabled).
+ * This affects order of checks only (a symbol is still checked if its dependencies are disabled).
  * @param {number|string} id id or name of source (numeric id is returned by all register_*_symbol)
  * @param {string} depname dependency name
  * @example
@@ -350,7 +350,7 @@ LUA_FUNCTION_DEF (config, get_metric_symbol);
 
 /**
  * @method rspamd_config:get_action(name)
- * Gets data for a specific action in config. This function returns number reperesenting action's score
+ * Gets data for a specific action in config. This function returns number representing action's score
  *
  * @param {string} name name of action
  * @return {number} action's score or nil in case of undefined score or action
@@ -374,7 +374,7 @@ LUA_FUNCTION_DEF (config, add_composite);
 /***
  * @method rspamd_config:register_pre_filter(callback[, order])
  * Register function to be called prior to symbols processing.
- * @param {function} callback callback function
+ * @param {function} callback function
  * @param {number} order filters are called from lower orders to higher orders, order is equal to 0 by default
  * @example
 local function check_function(task)
@@ -389,7 +389,7 @@ LUA_FUNCTION_DEF (config, register_pre_filter);
  * @method rspamd_config:register_post_filter(callback[, order])
  * Register function to be called after symbols are processed.
  *
- * @param {function} callback callback function
+ * @param {function} callback function
  * @param {number} order filters are called from lower orders to higher orders, order is equal to 0 by default
  */
 LUA_FUNCTION_DEF (config, register_post_filter);
@@ -495,7 +495,7 @@ LUA_FUNCTION_DEF (config, register_settings_id);
 
 /***
  * @method rspamd_config:__newindex(name, callback)
- * This metamethod is called if new indicies are added to the `rspamd_config` object.
+ * This metamethod is called if new indices are added to the `rspamd_config` object.
  * Technically, it is the equivalent of @see rspamd_config:register_symbol where `weight` is 1.0.
  * There is also table form invocation that allows to control more things:
  *
@@ -507,7 +507,7 @@ LUA_FUNCTION_DEF (config, register_settings_id);
  * - `one_shot`: default value for one shot attribute
  * - `condition`: function of task that can enable or disable this specific rule's execution
  * @param {string} name index name
- * @param {function/table} callback callback to be called
+ * @param {function/table} callback to be called
  * @return {number} id of the new symbol added
  * @example
 rspamd_config.R_EMPTY_IMAGE = function (task)
@@ -734,7 +734,7 @@ LUA_FUNCTION_DEF (config, register_monitored);
  *
  * - `default`: default option value
  * - `type`: type of an option (`string`, `number`, `object`, `array` etc)
- * - `reqired`: if an option is required
+ * - `required`: if an option is required
  *
  * @param {string} path documentation path (e.g. module name)
  * @param {string} option name of the option
@@ -2885,7 +2885,7 @@ lua_config_newindex (lua_State *L)
 			}
 			else
 			{
-				/* Fill in missing fields from lua defintion if they are not set */
+				/* Fill in missing fields from lua definition if they are not set */
 				if (sym->description == NULL) {
 					lua_pushstring (L, "description");
 					lua_gettable (L, -2);
@@ -2909,12 +2909,12 @@ lua_config_newindex (lua_State *L)
 				}
 				lua_pop (L, 1);
 				if (group) {
-					if (sym->flags & RSPAMD_SYMBOL_FLAG_UNGROUPPED) {
+					if (sym->flags & RSPAMD_SYMBOL_FLAG_UNGROUPED) {
 						/* Unset the "ungrouped" group */
 						sym->gr = NULL;
 					}
 					/* Add the group. If the symbol was ungrouped, this will
-					* clear RSPAMD_SYMBOL_FLAG_UNGROUPPED from the flags. */
+					* clear RSPAMD_SYMBOL_FLAG_UNGROUPED from the flags. */
 					rspamd_config_add_symbol_group (cfg, name, group);
 				}
 			}
@@ -3570,8 +3570,8 @@ lua_metric_symbol_inserter (gpointer k, gpointer v, gpointer ud)
 		lua_pushboolean (L, true);
 		lua_settable (L, -3);
 	}
-	if (s->flags & RSPAMD_SYMBOL_FLAG_UNGROUPPED) {
-		lua_pushstring (L, "ungroupped");
+	if (s->flags & RSPAMD_SYMBOL_FLAG_UNGROUPED) {
+		lua_pushstring (L, "ungrouped");
 		lua_pushboolean (L, true);
 		lua_settable (L, -3);
 	}
