@@ -3563,7 +3563,7 @@
   * [Fix] Fix hash creation
   * [Fix] Fix hiredis stupidity
   * [Fix] Fix implicit settings module settingsup
-  * [Fix] Fix interaction with lua GC to avoid craches
+  * [Fix] Fix interaction with lua GC to avoid crashes
   * [Fix] Fix ip_score module registration
   * [Fix] Fix issue with empty messages and dkim
   * [Fix] Fix issues with CGP helper
