@@ -186,7 +186,7 @@ function M.configure(ts, te, vs, ve, cs, ce, options)
                 token('text', C((1 - (tag_start * 'endraw' * tag_end))^0)) *
                 (tag_start * 'endraw' * tag_end + endraw_error),
 
-    -- Note: line statements are not supported since this grammer cannot parse
+    -- Note: line statements are not supported since this grammar cannot parse
     -- Lua itself.
 
     -- Template inheritence.
