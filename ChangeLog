@@ -824,9 +824,9 @@
   * [Conf] Surbl: Utilise new `check_emails` option
   * [Conf] Update header
   * [Conf] Use multi-prefixes RBLs in the default config
-  * [CritFix] Deal with case-sensivity in Content-Disposition parser
+  * [CritFix] Deal with case-sensitivity in Content-Disposition parser
   * [CritFix] Eliminate old endpoint
-  * [CritFix] Fix case sensivity when parsing Content-Type
+  * [CritFix] Fix case sensitivity when parsing Content-Type
   * [CritFix] Fix loading of DKIM public keys
   * [CritFix] Fix processing of urls
   * [CritFix] Fix whitelisting when both spf and dkim are required to be valid
