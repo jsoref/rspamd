@@ -2237,7 +2237,7 @@
   * [Fix] Various fixes to fann_redis instantiation
   * [Fix] Various improvements in language detection
   * [Fix] Virus infection string for F-PROT Antivirus
-  * [Fix] Virus infetction string for F-PROT Antivirus
+  * [Fix] Virus infection string for F-PROT Antivirus
   * [Fix] WebUI: use relative path for savemap (#1943)
   * [Fix] WHITE_ON_WHITE: Ensure score is matched to part that fired the rule
   * [Fix] Write configuration changes as UCL config
