@@ -2510,7 +2510,7 @@
   * [CritFix] Fix learn condition in fuzzy check
   * [CritFix] Fix memory leak in fuzzy check
   * [CritFix] Fix memory leak in maps scheduling
-  * [CritFix] Paese the last character in DKIM signature correctly
+  * [CritFix] Parse the last character in DKIM signature correctly
   * [CritFix] Zero fill sockaddr_un
   * [Feature] Add ability to add doc strings by example
   * [Feature] Add API to verify DKIM (and ARC) signatures
