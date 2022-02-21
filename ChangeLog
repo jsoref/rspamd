@@ -3042,7 +3042,7 @@
   * [Feature] Use a different normalization for fuzzy images
   * [Feature] Use normalized images in fuzzy hashes
   * [Feature] Use own code for parsing of date
-  * [Feature] Use shingles for images fuzzying
+  * [Feature] Use shingles for images fuzzing
   * [Feature] Use t1ha for hashes, allow inlining
   * [Feature] Use t1ha instead of metrohash and xxhash32
   * [Feature] Various new features in metadata exporter module
