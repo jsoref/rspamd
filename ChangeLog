@@ -799,7 +799,7 @@
   * [Fix] Lua_tcp: Deal with temporary fails on write
   * [Fix] Lua_tcp: Make write errors fatal and rework error handlers
   * [Fix] Meta: Filter some more values
-  * [Fix] Neural: Add protection agains infinities
+  * [Fix] Neural: Add protection against infinities
   * [Fix] Oops, fix math.huge invocation
   * [Fix] Plug memory leak
   * [Fix] Sigh, another email to string fix
