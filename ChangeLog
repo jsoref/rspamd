@@ -1153,7 +1153,7 @@
   * [Fix] Finally fix default parameters parsing in actions section
   * [Fix] Fix ES sending logic (restore from coroutines mess)
   * [Fix] Fix finishing script for clickhouse collection
-  * [Fix] Fix priority for regexp symbols registriation
+  * [Fix] Fix priority for regexp symbols registration
   * [Fix] Fix various issues found by PVS Studio
   * [Fix] Initialize lua debugging earlier
   * [Fix] Neural: Fix training
