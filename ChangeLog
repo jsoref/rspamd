@@ -2722,7 +2722,7 @@
 1.5.6:
   * [Feature] Add unigramms support in bayes
   * [Feature] Allow configurable sign headers for DKIM
-  * [Feature] Allow to add unigramm metatokens from Lua
+  * [Feature] Allow to add unigram metatokens from Lua
   * [Feature] DKIM Signing: envelope match exception for local IPs
   * [Feature] UCL: register parser variables from Lua
   * [Fix] Always try to adjust filename
