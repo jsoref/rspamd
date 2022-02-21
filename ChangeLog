@@ -4362,7 +4362,7 @@
 
 1.2.7:
   * Slightly reduce weights of rules with high FP rate
-  * Add workround for rspamd-1.3
+  * Add workaround for rspamd-1.3
   * Fix possible FP in TRACKER_ID rule
   * Simplify MISSING_MIMEOLE rule
   * Add workaround for gmime CTE stupidity
