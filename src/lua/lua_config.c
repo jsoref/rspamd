@@ -225,7 +225,7 @@ LUA_FUNCTION_DEF (config, register_symbol);
 /***
  * @method rspamd_config:register_symbols(callback, [weight], callback_name, [, symbol, ...])
  * Register callback function to be called for a set of symbols with initial weight.
- * @param {function} callback callback function to be called for a specified symbol
+ * @param {function} callback function to be called for a specified symbol
  * @param {number} weight initial weight of symbol (can be less than zero to specify non-spam symbols)
  * @param {string} callback_name symbolic name of callback
  * @param {list of strings} symbol list of symbols registered by this function
@@ -248,7 +248,7 @@ LUA_FUNCTION_DEF (config, register_virtual_symbol);
  * **This method is deprecated and should not be used in newly written code **
  * @param {string} name symbol's name (just for unique id purposes)
  * @param {number} weight initial weight of symbol (can be less than zero to specify non-spam symbols)
- * @param {function} callback callback function to be called for a specified symbol
+ * @param {function} callback function to be called for a specified symbol
  */
 LUA_FUNCTION_DEF (config, register_callback_symbol);
 LUA_FUNCTION_DEF (config, register_callback_symbol_priority);
@@ -374,7 +374,7 @@ LUA_FUNCTION_DEF (config, add_composite);
 /***
  * @method rspamd_config:register_pre_filter(callback[, order])
  * Register function to be called prior to symbols processing.
- * @param {function} callback callback function
+ * @param {function} callback function
  * @param {number} order filters are called from lower orders to higher orders, order is equal to 0 by default
  * @example
 local function check_function(task)
@@ -389,7 +389,7 @@ LUA_FUNCTION_DEF (config, register_pre_filter);
  * @method rspamd_config:register_post_filter(callback[, order])
  * Register function to be called after symbols are processed.
  *
- * @param {function} callback callback function
+ * @param {function} callback function
  * @param {number} order filters are called from lower orders to higher orders, order is equal to 0 by default
  */
 LUA_FUNCTION_DEF (config, register_post_filter);
@@ -507,7 +507,7 @@ LUA_FUNCTION_DEF (config, register_settings_id);
  * - `one_shot`: default value for one shot attribute
  * - `condition`: function of task that can enable or disable this specific rule's execution
  * @param {string} name index name
- * @param {function/table} callback callback to be called
+ * @param {function/table} callback to be called
  * @return {number} id of the new symbol added
  * @example
 rspamd_config.R_EMPTY_IMAGE = function (task)

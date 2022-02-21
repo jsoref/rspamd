@@ -994,7 +994,7 @@ end
 -- @param {table} redis_params redis configuration in format returned by lua_redis.parse_redis_server()
 -- @param {string} key key to use for sharding
 -- @param {boolean} is_write should be `true` if we are performing a write operating
--- @param {function} callback callback function (first parameter is error if applicable, second is a 2D array (table))
+-- @param {function} callback function (first parameter is error if applicable, second is a 2D array (table))
 -- @param {string} command Redis command to run
 -- @param {table} args Numerically indexed table containing arguments for command
 --]]

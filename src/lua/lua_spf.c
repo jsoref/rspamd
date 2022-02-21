@@ -209,7 +209,7 @@ spf_lua_lib_callback (struct spf_resolved *record, struct rspamd_task *task,
  * @function rspamd_spf.resolve(task, callback)
  * Resolves SPF credentials for a task
  * @param {rspamd_task} task task
- * @param {function} callback callback that is called on spf resolution
+ * @param {function} callback that is called on spf resolution
 */
 gint
 lua_spf_resolve (lua_State * L)
