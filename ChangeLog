@@ -2101,7 +2101,7 @@
   * [Fix] Fix build on FreeBSD
   * [Fix] Fix clickhouse exporter
   * [Fix] Fix clickhouse schema
-  * [Fix] Fix comparision
+  * [Fix] Fix comparison
   * [Fix] Fix composites processing
   * [Fix] Fix connecting to a unix socket in rspamadm statconvert
   * [Fix] Fix couple of warnings
@@ -2316,7 +2316,7 @@
   * [Fix] Exim Received header protocol parsing
   * [Fix] First load selector_map and path_map. And only return false when domain not found if try_fallback is false
   * [Fix] Fix bad archive characters stripping
-  * [Fix] Fix comparision
+  * [Fix] Fix comparison
   * [Fix] Fix connecting to a unix socket in rspamadm statconvert
   * [Fix] Fix empty headers simple canonicalization
   * [Fix] Fix extra hits in PCRE mode for regular expressions
