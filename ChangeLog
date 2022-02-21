@@ -3868,7 +3868,7 @@
   * [Feature] Add function to convert fstring_t to c string
   * [Feature] Add function to create temporary shared memory mapping
   * [Feature] Add function to generate random hex string
-  * [Feature] Add generic fucnction to parse IP maps
+  * [Feature] Add generic function to parse IP maps
   * [Feature] Add initial version of HTTP lua repl
   * [Feature] Add learn condition to the default configuration
   * [Feature] Add learn conditions for classifiers
