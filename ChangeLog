@@ -1382,7 +1382,7 @@
   * [Fix] Ignore signatures when looking for boundaries
   * [Fix] Properly set learned count
   * [Fix] Really fix ratelimits configuration and work
-  * [Fix] Remove ambigious format flag from printf
+  * [Fix] Remove ambiguous format flag from printf
   * [Fix] Restore URLs exporting in ClickHouse plugin
   * [Fix] Rework bayes calculations...
   * [Fix] Switch from chi-square to naive for large Fisher value
