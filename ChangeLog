@@ -4537,7 +4537,7 @@
   * New dynamic updates plugin
   * Regular expressions map support
   * Faster radix trie algorithm
-  * Faster siphash for AVX2 supporing CPUs (used in fuzzy hashes)
+  * Faster siphash for AVX2 supporting CPUs (used in fuzzy hashes)
   * PCRE2 support
   * Allow quoted and slashed keys in map
   * Add proper support of DNS resolvers balancing (#552)
