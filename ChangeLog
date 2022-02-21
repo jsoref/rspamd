@@ -3456,7 +3456,7 @@
   * [Feature] Allow whitelisting by IP for greylisting plugin
   * [Feature] Antivirus: Support whitelists & pattern-matching sig names
   * [Feature] Backport pack/unpack routines from Lua 5.3
-  * [Feature] Check settings with equal priopities in alphabetical order
+  * [Feature] Check settings with equal priorities in alphabetical order
   * [Feature] Compress neural net in redis
   * [Feature] Consider more tags when doing WHITE_ON_WHITE rule
   * [Feature] Descriptive options for DMARC failure symbols
