@@ -4172,7 +4172,7 @@
   * [Fix] Fix errors counting in upstreams
   * [Fix] Fix errors handling in the proxy
   * [Fix] Fix event bases for IO events
-  * [Fix] Fix events handling when scheduling map wacth
+  * [Fix] Fix events handling when scheduling map watch
   * [Fix] Fix fann rewrite
   * [Fix] Fix files fallback for shmem transfer
   * [Fix] Fix fuzzy adding in webui
